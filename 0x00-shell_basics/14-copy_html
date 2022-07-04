@@ -1,2 +1,2 @@
 #!/bin/bash
-find /root -name "*.html" -exec cp {} ~/otherDir \;
+cp -rua *.html ../
