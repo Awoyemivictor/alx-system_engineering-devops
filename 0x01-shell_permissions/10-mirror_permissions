@@ -1,2 +1,2 @@
 #!/bin/bash
-chown 344 hello
+chown --reference=olleh hello
