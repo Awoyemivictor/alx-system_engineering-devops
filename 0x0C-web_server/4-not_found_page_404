@@ -15,10 +15,10 @@ ERRORFILE="/usr/share/nginx/html/404error.html"
 FOUR="Ceci n'ext pas une page"
 ERRORREDIRECT="\n\terror_page 404 /404error.html;\n\tlocation = /404error.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}\n"
 
-apt-get -y update
-apt-get -y install nginx
-ufw allow 'Nginx HTTP'
-sudo echo "$STRING" > /var/www/html/index.nginx-debian.html
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+echo "$STRING" > /var/www/html/index.nginx-debian.html
 sed -i "37i\ $REDIRECT" "$FILE"
 
 echo "$FOUR" > "$ERRORFILE"
