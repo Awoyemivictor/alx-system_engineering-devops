@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that displays "To inifinity and beyond" indefinitely.
+# Bash script for inifinity and beyond" indefinitely.
 
 while [[ -1 -eq 1 ]]; do
   echo "To infinity and beyond"
