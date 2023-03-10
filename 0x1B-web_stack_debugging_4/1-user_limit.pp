@@ -1,7 +1,7 @@
 # Changing the OS configuration
 
 adduser holberton
-
+su - holberton
 { "holberton":
 	ensure => "present",
 	su - holberton,
