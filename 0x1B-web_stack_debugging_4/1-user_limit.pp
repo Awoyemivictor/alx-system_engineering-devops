@@ -2,4 +2,4 @@
 
 adduser holberton
 su - holberton
-sudo bash -c "echo '* - nofile 10240' >> /etc/security/limits.conf"
+sudo bash -c "echo 'ulimit -n 32678' >> /etc/security/limits.conf"
