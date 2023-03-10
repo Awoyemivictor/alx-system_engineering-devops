@@ -2,4 +2,4 @@
 
 adduser holberton
 su - holberton
-echo 'ulimit -n 32678' >> /etc/security/limits.conf
+echo 'ulimit -n 8192' >> /etc/security/limits.conf
